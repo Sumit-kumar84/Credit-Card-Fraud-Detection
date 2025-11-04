@@ -13,18 +13,18 @@ Perform a cost-benefit analysis to estimate the business impact.
 Suggest strategies to minimize fraud risk and improve detection accuracy.
 
 # Repository Structure
-# File	Description
+## File	Description
 fraud_detection.ipynb: Main Jupyter Notebook containing data preprocessing, EDA, model training, and evaluation.
 Cost^Benefit^Analysis.xlsx:	Excel file showing the cost-benefit analysis for different fraud scenarios.
 CC_Fraud_Detection.ppt:	PowerPoint presentation summarizing the project, results, and recommendations.
 
 # Dataset Details
-The dataset is a simulated Kaggle dataset consisting of approximately 1.85 million transactions between January 2019 and December 2020.
-Fraudulent transactions: 9,651 (~0.52%)
-Legitimate transactions: 1,842,743
-Target variable: is_fraud (1 = Fraud, 0 = Non-fraud)
-Feature example: amt (transaction amount)
-Since the dataset is highly imbalanced, I used techniques like SMOTE and undersampling to balance it before model training.
+- The dataset is a simulated Kaggle dataset consisting of approximately 1.85 million transactions between January 2019 and December 2020.
+- Fraudulent transactions: 9,651 (~0.52%)
+- Legitimate transactions: 1,842,743
+- Target variable: is_fraud (1 = Fraud, 0 = Non-fraud)
+- Feature example: amt (transaction amount)
+- Since the dataset is highly imbalanced, I used techniques like SMOTE and undersampling to balance it before model training.
 
 # Steps Followed
 Data cleaning and preprocessing
